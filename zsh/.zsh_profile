@@ -1,0 +1,12 @@
+alias gpl="git pull"
+alias gss="git status -s"
+alias gs="git status"
+alias gp="git push"
+alias gl="git log"
+alias gl5="git log -5 --pretty --online"
+alias gm="git commit -m"
+alias gc="git checkout"
+
+alias cat="bat"
+alias ls="exa"
+alias ps="procs"
