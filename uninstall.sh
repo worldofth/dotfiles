@@ -2,6 +2,6 @@
 
 stow -D --target=~/ zsh
 
-if [[ -e ~/.zshrc.bak ]]
-    mv ~/.zshrc ~/.zshrc.bak   
+if [[ -e ~/.zshrc.bak ]]; then
+    mv ~/.zshrc ~/.zshrc.bak
 fi
