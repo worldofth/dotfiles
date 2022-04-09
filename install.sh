@@ -6,4 +6,4 @@ else
     mv ~/.zshrc ~/.zshrc.bak
 fi
 
-stow --target=~/ zsh
+stow --target=/home/tom/ zsh
