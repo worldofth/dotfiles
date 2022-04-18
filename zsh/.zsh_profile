@@ -10,14 +10,3 @@ alias gc="git checkout"
 alias cat="bat"
 alias ls="exa"
 alias ps="procs"
-
-function win10(){
-    win10vmstate=$(sudo virsh list --all | grep win10 | awk '{ print $3 }')
-    if ([ "$win10vmstate" != "running" ]); then
-        sudo virsh start win10
-    fi
-
-    (~/looking-glass-client -F win:size=2560x1440)
-}
-
-alias upd="sudo pacman -Syu"
